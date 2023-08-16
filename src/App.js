@@ -1,4 +1,4 @@
-import "./styles/App.css";
+//import "./styles/App.css";
 import Header from "./components/header";
 import Router from "./router.js";
 import Footer from "./components/footer";
