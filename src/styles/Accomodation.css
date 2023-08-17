@@ -1,0 +1,15 @@
+.accomodation-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 58px;
+}
+.accomodation-div .infos-container {
+  display: flex;
+  width: 90%;
+  max-width: 1240px;
+}
+
+/*# sourceMappingURL=Accomodation.css.map */

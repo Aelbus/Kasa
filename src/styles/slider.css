@@ -2,6 +2,7 @@
   position: relative;
   margin: auto;
   width: 90%;
+  max-width: 1240px;
   height: 415px;
   margin-top: 20px;
   border-radius: 25px;
