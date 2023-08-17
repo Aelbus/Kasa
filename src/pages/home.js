@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-//import "../styles/Home.css";
+import "../styles/Home.css";
 import Banner from "../components/banner";
 import Card from "../components/card";
 import data from "../data/logements.json";
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home-div">
       <Banner />
-      <div className="home-card-container">
+      <div className="home-card-div">
         <ul>
           {data.map((acc) => {
             return (

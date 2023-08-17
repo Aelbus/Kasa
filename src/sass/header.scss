@@ -1,0 +1,25 @@
+.header-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 40px 0;
+  .logo-div {
+    width: 50%;
+  }
+  .nav-div {
+    display: flex;
+  }
+  .nav-link {
+    color: #ff6060;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  nav ul a:nth-child(1) {
+    margin-right: 48px;
+  }
+  .active-link {
+    text-decoration: underline;
+  }
+}
