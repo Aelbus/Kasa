@@ -1,6 +1,7 @@
 .home-banner {
   height: 223px;
   width: 100%;
+  max-width: 1240px;
   position: relative;
   background-color: black;
   border-radius: 25px;
@@ -18,7 +19,7 @@
   font-size: 50px;
   color: #ffffff;
   top: 20%;
-  left: 20%;
+  left: 21%;
 }
 .home-banner .line-break {
   display: none;
