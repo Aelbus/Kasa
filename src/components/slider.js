@@ -22,7 +22,7 @@ const Slider = (images) => {
   // console.log(counter);
 
   return (
-    <div className="slider-container">
+    <div className="slider-div">
       <img className="slider-img" src={actualImage} alt="chambre d'un hôte" />
       <div className="sup-container">
         <img
