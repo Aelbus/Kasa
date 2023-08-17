@@ -1,0 +1,26 @@
+.header-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-div .logo-div {
+  width: 50%;
+}
+.header-div .nav-div {
+  display: flex;
+}
+.header-div .nav-link {
+  color: #ff6060;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+}
+.header-div nav ul a:nth-child(1) {
+  margin-right: 48px;
+}
+.header-div .active-link {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=header.css.map */

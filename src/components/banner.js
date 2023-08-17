@@ -1,5 +1,5 @@
 import React from "react";
-//import "../styles/banner.css";
+import "../styles/banner.css";
 import Cliff from "../assets/images/Cliff.svg";
 import { useLocation } from "react-router-dom";
 

@@ -1,5 +1,11 @@
-body {
-  background: red;
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: auto;
+  padding-top: 50px;
+  font-family: "Montserrat";
 }
 
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,22 @@
+.footer-div {
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 210px;
+  width: 100%;
+}
+.footer-div img {
+  width: 130px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.footer-div p {
+  font-style: normal;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=footer.css.map */
