@@ -1,0 +1,68 @@
+.collapse {
+  margin: 30px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.collapse .collapse-title {
+  color: white;
+  background: #ff6060;
+  border-radius: 5px;
+  height: 47px;
+  width: 90%;
+  margin: 0 10px 0 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.collapse .collapse-title h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 18px;
+}
+.collapse .collapse-title .arrowDown {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  transform: rotate(180deg);
+}
+.collapse .collapse-title .arrowUp {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  transform: rotate(0deg);
+}
+.collapse .collapse-content {
+  background: #f7f7f7;
+  border-radius: 0 0 5px 5px;
+  width: 90%;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+.collapse .collapse-content p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ff6060;
+  padding: 40px 20px;
+}
+.collapse .collapse-content ul {
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ff6060;
+  padding: 40px 20px;
+}
+.collapse .collapse-content-hidden {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+}
+
+/*# sourceMappingURL=collapse.css.map */

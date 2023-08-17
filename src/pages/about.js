@@ -1,5 +1,5 @@
 import React from "react";
-//import "../styles/About.css";
+import "../styles/About.css";
 import Collapse from "../components/collapse";
 import Mountain from "../assets/images/Mountain.svg";
 
