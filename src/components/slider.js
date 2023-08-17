@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//import "../styles/slider.css";
+import "../styles/slider.css";
 import arrowLeft from "../assets/icons/arrow-left.svg";
 import arrowRight from "../assets/icons/arrow-right.svg";
 
@@ -24,7 +24,7 @@ const Slider = (images) => {
   return (
     <div className="slider-div">
       <img className="slider-img" src={actualImage} alt="chambre d'un hôte" />
-      <div className="sup-container">
+      <div className="arrow-controller-div">
         <img
           onClick={slideLeft}
           className="arrow arrow-left"

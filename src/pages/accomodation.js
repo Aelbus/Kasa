@@ -19,7 +19,7 @@ const Accomodation = () => {
   }, [data, navigate]);
 
   return (
-    <div className="accomodation-container">
+    <div className="accomodation-div">
       <Slider images={data.pictures} />
 
       <div className="infos-container">
