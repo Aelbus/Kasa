@@ -1,0 +1,28 @@
+.error-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .error-div-content {
+    text-align: center;
+    color: #ff6060;
+    margin: 20px 0 0 0;
+    .error-number {
+      font-size: 196px;
+      font-weight: 700;
+      margin: 0;
+    }
+    .error-text {
+      font-size: 28px;
+      font-weight: 500;
+      margin: 20px 0 0 0;
+    }
+  }
+  .error-link {
+    color: #ff6060;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 110px 0 110px 0;
+  }
+}
