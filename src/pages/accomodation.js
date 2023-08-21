@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "../styles/Accomodation.css";
-//import "../styles/rating.css"
 import { useParams } from "react-router-dom";
 import Slider from "../components/slider";
 import dataAccomodation from "../data/logements.json";

@@ -7,9 +7,109 @@
   margin-top: 58px;
 }
 .accomodation-div .infos-container {
+  position: relative;
   display: flex;
+  flex-direction: column;
   width: 90%;
   max-width: 1240px;
+}
+.accomodation-div .infos-container .accomodation-title {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 30px;
+  width: 70%;
+}
+.accomodation-div .infos-container .accomodation-location {
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 25.67px;
+}
+.accomodation-div .accomodation-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6060;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+  height: 25px;
+  width: 150px;
+  margin-right: 10px;
+}
+.accomodation-div .tags {
+  display: flex;
+  flex-direction: row;
+  margin-top: 23px;
+}
+.accomodation-div .user {
+  position: absolute;
+  right: 0px;
+  top: 24px;
+}
+.accomodation-div .user .accomodation-host {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.accomodation-div .user .accomodation-host img {
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+  object-fit: 100%;
+}
+.accomodation-div .user .accomodation-host p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #ff6060;
+  display: flex;
+  align-items: center;
+  margin: 0 13px 0 0;
+  width: 40%;
+  text-align: right;
+}
+.accomodation-div .user .accomodation-stars {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+}
+.accomodation-div .user .accomodation-stars .empty-star-container {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 27px;
+  right: 5px;
+}
+.accomodation-div .user .accomodation-stars .filled-star-container {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  z-index: 20;
+  top: 27px;
+  right: 5px;
+}
+.accomodation-div .user .accomodation-stars .star {
+  height: 23px;
+  width: 23px;
+  margin-left: 10px;
+}
+
+.collapse-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+  margin-left: -32px;
+}
+.collapse-container .collapse-description {
+  width: 50%;
+}
+.collapse-container .collapse-equipment {
+  width: 50%;
 }
 
 /*# sourceMappingURL=Accomodation.css.map */
