@@ -27,3 +27,31 @@
     text-decoration: underline;
   }
 }
+
+@media screen and (max-width: 950px) {
+  .header-div {
+    justify-content: space-between;
+    margin: 0px 0 0 0;
+    .logo-div {
+      width: 50%;
+      img {
+        margin-left: 12px;
+        width: 125px;
+      }
+    }
+    .nav-div {
+      margin-right: 12px;
+      width: 50%;
+      flex-direction: row-reverse;
+      ul {
+        padding: 0;
+        .nav-link {
+          font-size: 18px;
+        }
+      }
+    }
+    nav ul a:nth-child(1) {
+      margin-right: 12px;
+    }
+  }
+}

@@ -25,3 +25,9 @@
     transform: scale(1.04);
   }
 }
+
+@media screen and (max-width: 950px) {
+  .home-card {
+    height: 260px;
+  }
+}

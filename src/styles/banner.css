@@ -25,4 +25,19 @@
   display: none;
 }
 
+@media screen and (max-width: 950px) {
+  .home-banner {
+    height: 140px;
+    width: 92%;
+  }
+  .home-banner h1 {
+    font-size: 30px;
+    top: 12%;
+    left: 5%;
+  }
+  .home-banner .line-break {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=banner.css.map */

@@ -29,4 +29,18 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 950px) {
+  .home-div {
+    margin-top: 20px;
+  }
+  .home-div .home-card-div {
+    background: none;
+    margin: 10px 0 10px 0;
+    padding: 0;
+  }
+  .home-div .home-card-div ul {
+    gap: 15px;
+  }
+}
+
 /*# sourceMappingURL=Home.css.map */

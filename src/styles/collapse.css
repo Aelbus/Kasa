@@ -10,7 +10,7 @@
   background: #ff6060;
   border-radius: 5px;
   height: 47px;
-  width: 90%;
+  width: 100%;
   margin: 0 10px 0 10px;
   position: relative;
   display: flex;
@@ -42,7 +42,7 @@
 .collapse .collapse-content {
   background: #f7f7f7;
   border-radius: 0 0 5px 5px;
-  width: 90%;
+  width: 100%;
   margin-top: -5px;
   margin-bottom: 20px;
 }

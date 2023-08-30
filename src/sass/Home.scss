@@ -28,3 +28,17 @@
     }
   }
 }
+
+@media screen and (max-width: 950px) {
+  .home-div {
+    margin-top: 20px;
+    .home-card-div {
+      background: none;
+      margin: 10px 0 10px 0;
+      padding: 0;
+      ul {
+        gap: 15px;
+      }
+    }
+  }
+}

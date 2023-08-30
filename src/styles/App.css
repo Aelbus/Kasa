@@ -6,4 +6,14 @@
   font-family: "Montserrat";
 }
 
+body {
+  margin: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .App {
+    padding-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

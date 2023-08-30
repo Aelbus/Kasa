@@ -25,7 +25,7 @@ const Accomodation = () => {
             </div>
           </div>
 
-          <div className="accomodation-tags-stars">
+          <div className="accomodation-tags">
             <ul className="tags">
               {data.tags.map((tag, index) => (
                 <li className="accomodation-tag" key={index}>
@@ -33,40 +33,40 @@ const Accomodation = () => {
                 </li>
               ))}
             </ul>
+          </div>
 
-            <div className="user">
-              <div className="accomodation-host">
-                <p>{data.host.name}</p>
-                <img
-                  src={data.host.picture}
-                  alt={"photo de profil de " + data.host.name}
+          <div className="user">
+            <div className="accomodation-host">
+              <p>{data.host.name}</p>
+              <img
+                src={data.host.picture}
+                alt={"photo de profil de " + data.host.name}
+              />
+            </div>
+            <Rating />
+          </div>
+
+          <div className="collapse-container">
+            <div className="collapse-description">
+              {dataAccomodation[0] && (
+                <Collapse
+                  state={{
+                    title: "Description",
+                    description: dataAccomodation[0].description,
+                  }}
                 />
-              </div>
-              <Rating />
+              )}
             </div>
 
-            <div className="collapse-container">
-              <div className="collapse-description">
-                {dataAccomodation[0] && (
-                  <Collapse
-                    state={{
-                      title: "Description",
-                      description: dataAccomodation[0].description,
-                    }}
-                  />
-                )}
-              </div>
-
-              <div className="collapse-equipment">
-                {dataAccomodation[0] && (
-                  <Collapse
-                    state={{
-                      title: "Equipments",
-                      equipments: dataAccomodation[0].equipments,
-                    }}
-                  />
-                )}
-              </div>
+            <div className="collapse-equipment">
+              {dataAccomodation[0] && (
+                <Collapse
+                  state={{
+                    title: "Equipments",
+                    equipments: dataAccomodation[0].equipments,
+                  }}
+                />
+              )}
             </div>
           </div>
         </div>
@@ -74,4 +74,5 @@ const Accomodation = () => {
     );
   }
 };
+
 export default Accomodation;

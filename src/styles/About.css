@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin-top: 58px;
 }
 .about-container img {
@@ -14,9 +13,23 @@
   object-fit: cover;
 }
 .about-container .about-collapse-container {
-  width: 100%;
+  width: 60%;
   max-width: 1240px;
   margin: 48px 0 10px 0;
+}
+
+@media screen and (max-width: 950px) {
+  .about-container {
+    margin-top: 20px;
+  }
+  .about-container img {
+    width: 92%;
+    margin: 0;
+  }
+  .about-container .about-collapse-container {
+    width: 92%;
+    margin: 0 0 10px 0;
+  }
 }
 
 /*# sourceMappingURL=About.css.map */
