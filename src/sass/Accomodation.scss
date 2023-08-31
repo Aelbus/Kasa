@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
   max-width: 1240px;
-  width: 100%;
+  width: 90%;
   margin: auto;
   .accomodation-header {
     color: #ff6060;
@@ -22,6 +22,7 @@
     }
   }
   .tags {
+    padding: 0;
     display: flex;
     gap: 10px;
     flex-direction: row;
@@ -32,9 +33,11 @@
       background-color: #ff6060;
       border-radius: 50px;
       font-size: 14px;
+      white-space: nowrap;
       color: white;
       height: 25px;
-      width: 150px;
+      width: auto;
+      padding: 0 15px;
     }
   }
 
@@ -109,57 +112,55 @@
     width: 90%;
     .infos-container {
       width: 100%;
-      margin: auto;
+      margin: 0;
       .tags {
-        margin: auto;
         display: flex;
-        gap: 10px;
+        justify-content: flex-start;
+        gap: 8px;
         flex-direction: row;
         .accomodation-tag {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-color: #ff6060;
-          border-radius: 50px;
-          font-size: 14px;
-          color: white;
-          height: 25px;
-          width: 150px;
+          font-size: 11px;
         }
       }
 
       .user {
-        position: inherit;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-        width: 167px;
+        position: relative;
+        left: 10px;
+        width: 90%;
         height: 64px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
         .accomodation-host {
-          justify-content: flex-end;
-          display: flex;
-          flex-direction: row;
+          align-items: center;
           width: 167px;
           img {
-            height: 64px;
-            width: 64px;
-            border-radius: 100%;
-            object-fit: 100%;
+            padding-top: 7px;
+            width: 32px;
+            height: 32px;
           }
           p {
-            font-size: 18px;
-            font-weight: 500;
-            color: #ff6060;
-            width: 93px;
-            margin: 10px 10px 0 0;
-            text-align: right;
+            font-size: 12px;
+            width: 60px;
+            height: 32px;
+          }
+        }
+        .accomodation-stars {
+          position: absolute;
+          bottom: 65px;
+          left: -40px;
+          .star {
+            width: 18px;
+            height: 18px;
           }
         }
       }
       .collapse-container {
-        display: flex;
         flex-direction: column;
-        gap: 5px;
+        height: auto;
+        gap: 0;
         .collapse-description {
           width: 100%;
         }

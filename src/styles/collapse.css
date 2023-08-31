@@ -43,6 +43,7 @@
   background: #f7f7f7;
   border-radius: 0 0 5px 5px;
   width: 100%;
+  height: auto;
   margin-top: -5px;
   margin-bottom: 20px;
 }
@@ -50,14 +51,14 @@
   font-weight: 500;
   font-size: 18px;
   color: #ff6060;
-  padding: 40px 20px;
+  padding: 10px 20px;
 }
 .collapse .collapse-content ul {
   list-style: none;
   font-weight: 500;
   font-size: 18px;
   color: #ff6060;
-  padding: 40px 20px;
+  padding: 10px 20px;
 }
 .collapse .collapse-content-hidden {
   visibility: hidden;

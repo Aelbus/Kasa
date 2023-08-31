@@ -30,17 +30,41 @@
 
 @media screen and (max-width: 950px) {
   .header-div {
-    justify-content: space-between;
-    margin: 0px 0 0 0;
+    width: 100%;
+    justify-content: space-around;
     .logo-div {
-      width: 50%;
+      width: 30%;
       img {
-        margin-left: 12px;
-        width: 125px;
+        width: 165px;
       }
     }
     .nav-div {
+      width: 30%;
+      flex-direction: row-reverse;
+      ul {
+        padding: 0;
+        .nav-link {
+          font-size: 18px;
+        }
+      }
+    }
+    nav ul a:nth-child(1) {
       margin-right: 12px;
+    }
+  }
+}
+@media screen and (max-width: 510px) {
+  .header-div {
+    width: 90%;
+    margin: 0 20px;
+    justify-content: space-between;
+    .logo-div {
+      width: 50%;
+      img {
+        width: 100px;
+      }
+    }
+    .nav-div {
       width: 50%;
       flex-direction: row-reverse;
       ul {

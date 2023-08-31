@@ -30,18 +30,42 @@
 
 @media screen and (max-width: 950px) {
   .header-div {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .header-div .logo-div {
+    width: 30%;
+  }
+  .header-div .logo-div img {
+    width: 165px;
+  }
+  .header-div .nav-div {
+    width: 30%;
+    flex-direction: row-reverse;
+  }
+  .header-div .nav-div ul {
+    padding: 0;
+  }
+  .header-div .nav-div ul .nav-link {
+    font-size: 18px;
+  }
+  .header-div nav ul a:nth-child(1) {
+    margin-right: 12px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .header-div {
+    width: 90%;
+    margin: 0 20px;
     justify-content: space-between;
-    margin: 0px 0 0 0;
   }
   .header-div .logo-div {
     width: 50%;
   }
   .header-div .logo-div img {
-    margin-left: 12px;
-    width: 125px;
+    width: 100px;
   }
   .header-div .nav-div {
-    margin-right: 12px;
     width: 50%;
     flex-direction: row-reverse;
   }

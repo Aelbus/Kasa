@@ -42,4 +42,45 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 950px) {
+  .slider-div {
+    width: 100%;
+    height: 415px;
+    margin-top: 20px;
+  }
+  .slider-div .slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  .arrow-controller-div {
+    color: #ffffff;
+    text-shadow: black 1px 0 10px;
+  }
+  .arrow-controller-div .arrow {
+    width: 26px;
+    height: 79.2px;
+    filter: drop-shadow(black 1px 0 5px);
+    cursor: pointer;
+  }
+  .arrow-controller-div .arrow-left {
+    position: absolute;
+    top: 160px;
+    left: 25px;
+  }
+  .arrow-controller-div .arrow-right {
+    position: absolute;
+    top: 160px;
+    right: 25px;
+  }
+  .arrow-controller-div .counter {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
 /*# sourceMappingURL=slider.css.map */
