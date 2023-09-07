@@ -4,7 +4,14 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  background: rgb(102, 102, 102);
+  background: linear-gradient(
+    0deg,
+    rgba(102, 102, 102, 1) 0%,
+    rgba(255, 96, 96, 1) 100%
+  );
   img {
+    //visibility: hidden;
     height: 100%;
     width: 100%;
     border-radius: 10px;

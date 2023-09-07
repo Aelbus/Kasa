@@ -4,6 +4,8 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  background: rgb(102, 102, 102);
+  background: linear-gradient(0deg, rgb(102, 102, 102) 0%, rgb(255, 96, 96) 100%);
 }
 .home-card img {
   height: 100%;
